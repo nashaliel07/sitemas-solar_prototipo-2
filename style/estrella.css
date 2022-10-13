@@ -1,0 +1,259 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+  background-color: #b3d5e1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+header {
+  background-color: #604e8f;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(220, 220, 240);
+}
+
+.contenedorLogo {
+  display: flex;
+  align-items: center;
+}
+
+.Logo {
+  width: auto;
+  height: 80px;
+  padding: 8px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+
+}
+
+li a {
+  color: white;
+  padding: 28px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color: #2471a3;
+}
+
+.contenedorTitle {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #7f7dc3;
+}
+
+#Subtitle {
+  color: #1e6f92;
+  font-size: 36px;
+  padding: 8px 0;
+}
+
+
+#CardParrafo {
+  color: #333;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: justify;
+  padding-right: 40px;
+}
+
+h1 {
+  color: #fff;
+  font-size: 48px;
+}
+
+main {
+  width: 94%;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.sistemaSolar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.galeria {
+  background-color: #c6cce8;
+  width: 30%;
+  max-width: 600px;
+  float: left;
+  margin: 5px;
+  border: 5px solid #1c5473;
+  border-radius: 20px;
+  opacity: 0.9;
+}
+
+.cardImage {
+  width: 50%;
+  border-radius: 15px;
+  opacity: 0.9;
+}
+
+.galeria:hover {
+  border: 5px solid #344fa7;
+}
+
+.galeria img {
+  width: 100%;
+  height: auto;
+}
+
+
+.texto {
+  color: #2471a3;
+  padding: 15px;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+#ParrafoLi {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: justify;
+  padding-right: 50px;
+  list-style-image: url(/image/estellaList.png);
+
+}
+
+
+/* .constelaciones {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 40px;
+  width: 100%;
+} */
+
+/* .constTitle {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 12px 0;
+} */
+
+
+/* .contenedorConstelaciones {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 40px;
+  justify-content: center;
+}
+
+.contenedorConstelaciones li {
+  list-style-image: url(/image/estellaList.png);
+  align-items: center;
+  font-size: 24px;
+  font-weight: 600;
+  width: 280px;
+}
+
+.listadoConstelaciones {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+
+/* .ImgConst {
+  width: 80px;
+}
+
+.ItemConst {
+  color: #000;
+  font-size: 36px;
+  font-weight: 600;
+} */
+
+.links {
+  display: flex;
+  padding: 15px;
+  margin-left: 0;
+  background-image: url(https://media.giphy.com/media/l1Et7Qw1XjvunS0Io/giphy.gif);
+  justify-content: space-between;
+  /* background-repeat: no-repeat; */
+
+
+
+
+}
+
+#titleLinks {
+  text-align: center;
+  color: #fff;
+  font-size: 36px;
+  padding: 8px 8px;
+
+
+}
+
+.contenedorLinks {
+  display: flex;
+  text-align: right;
+  padding: 10px 0;
+}
+
+
+#enlace {
+  padding-right: 50px;
+  text-align: lefts;
+  text-decoration: none;
+  font-size: 24px;
+  color: #e9e9e9;
+  font-weight: 600;
+}
+
+#enlace:hover {
+  color: #90558a;
+}
+
+#enlace:visited {
+  color: #87e2c5;
+}
+
+
+
+
+
+
+
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  background-color: #000;
+}
+
+.parrafoFooter {
+  color: #fff;
+  text-align: right;
+  padding-right: 20px;
+}

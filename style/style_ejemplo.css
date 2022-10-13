@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  background-color: #b3d5e1;
+  /* background-image: url(https://estaticos.muyinteresante.es/media/cache/1140x_thumb/uploads/images/article/620cb8bf5bafe8308976b229/alcioneo_0.jpg); */
+  /* backgraund-image= para poner una imagen de fondo */
+  /* background-repeat: no-repeat;*/
+  /*sirve para que la imagne no se repita*/
+  /* background-position-x: center;
+  background-position-y: center;
+  background-attachment: fixed;
+  background-size: 100%; */
+
+}
+
+header {
+  background-color: #604e8f;
+  text-align: center;
+  color: rgb(220, 220, 240);
+}
+
+ul {
+  list-style-type: none;
+  /*quitar viñetas*/
+  margin: 0;
+  /*espacio extreno*/
+  padding: 0;
+  /*espacio interno*/
+  overflow: hidden;
+  /**/
+  background-color: #7f7dc3;
+}
+
+li {
+  float: left;
+  /* texto flotabte*/
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #73c6b6
+}
+
+
+main {
+  color: rgb(11, 19, 19);
+}
+
+/* #mer {
+  color: aqua;
+}
+
+#ven {
+  color: blueviolet; */
+}
+
+h2 {
+
+  text-decoration: underline;
+  font-weight: bold;
+  /*bold = efecto negrita*/
+  text-shadow: 2px 1px 1px wheat;
+  /*somb horiz/ somb vert/ tamaño somb  / color*/
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p {
+  display: block;
+
+  text-align: justify;
+
+  /* text-decoration: line-through; */
+  /* solo sireve para lineas/ underline= subrayado/ overline = arriba/ line-through=tachar el parrafo */
+  /* letter-spacing: 3px;
+  = para separar las letras */
+  word-spacing: 3px;
+  /*separar las palabras*/
+  text-transform: lowercase;
+  /*capitalize=que cada palabra empiece con mayuscula/ lowercase=todo lo pone en minuscula*/
+  line-height: 23px;
+  /*separacion de una linea a otra*/
+}
+
+img {
+  /* border-radius: 20%; = se redondea los bordes de la imagen*/
+
+  /* imagen miniatura = tamaño / tipo de borde / color de borde*/
+  border: 2px solid rebeccapurple;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+
+  /*responsive es para  reducir la imagen dependiendo del aparato tecnologico de donde ae habra la imagen */
+  max-width: 100%;
+  height: auto;
+
+  /*centrar la imagen */
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+
+  /* imagen transparente */
+  /* opacity: 0.7; */
+  /*filtros
+  1) blanco y negro*/
+  /* filter: grayscale(50%); */
+  filter: hue-rotate(5px);
+
+}
+
+footer {
+  background-color: #250933;
+  color: aliceblue;
+  text-align: center;
+}

@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+  background-color: #b3d5e1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+header {
+  background-color: #604e8f;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(220, 220, 240);
+}
+
+.contenedorLogo {
+  display: flex;
+  align-items: center;
+}
+
+.Logo {
+  width: auto;
+  height: 80px;
+  padding: 8px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+
+}
+
+li a {
+  color: white;
+  padding: 28px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #2471a3;
+}
+
+.contenedorTitle {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #7f7dc3;
+}
+
+h1 {
+  color: #fff;
+  font-size: 48px;
+}
+
+
+main {
+  width: 94%;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.cardPlanet {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.cardText {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.cardImage {
+  width: 50%;
+  border: 5px solid #1c5473;
+  border-radius: 20px;
+  opacity: 0.9;
+}
+
+#Subtitle {
+  color: #1e6f92;
+  font-size: 36px;
+  padding: 8px 0;
+}
+
+#CardParrafo {
+  color: #333;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: justify;
+  padding-right: 40px;
+}
+
+
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  background-color: #000;
+}
+
+.parrafoFooter {
+  color: #fff;
+  text-align: right;
+  padding-right: 20px;
+}
